@@ -25,16 +25,17 @@ This source code is accompanied with an application schematic diagram to help in
 * Place the PIC back into the circuit board;
 * Test the device.
 
+## Schematic diagram
+
+![Alt](/diagrams/CameraShutterTimer.PNG "Schematic Diagram")
+
 ## Sample board assembly and enclosure
 
-![Alt](/photos/intervalometer_external_view.jpg) "External View")
-![Alt](/photos/intervalometer_internal_view_01.jpg) "Internal View - PCB back")
-![Alt](/photos/intervalometer_internal_view_02.jpg) "Internal View - PCB top")
+![Alt](/photos/intervalometer_external_view.jpg "External View")
+![Alt](/photos/intervalometer_internal_view_01.jpg "Internal View - PCB back")
+![Alt](/photos/intervalometer_internal_view_02.jpg "Internal View - PCB top")
 
 ## Notes
 
 1. The resistors should ideally be of low tolerance. Otherwise some tuning and calibration of the constants may be required (see the constants KNOB_VAL_STEP and EDGE_CAL_FACTOR in the user_interface.h file)
 
-## Links
-
-[1]: https://www.microchip.com/mplab/mplab-x-ide "MPLAB X IDE"
